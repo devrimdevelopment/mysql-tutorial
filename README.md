@@ -25,13 +25,14 @@ USE deutsche_staedte
 ```code
 CREATE TABLE german_cities (
     id INT PRIMARY KEY,
-    name VARCHAR(100),
-    district VARCHAR(100),
-    state VARCHAR(100),
+    name VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    district VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    state VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
     population INT,
     lat FLOAT,
     lon FLOAT,
     area FLOAT
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 );
 ```
 >6. Schlussendlich kann auf die bereitgestellte .csv-Datei verwiesen werden, um dessen Inhalt in die Datenbank einzuspeisen:
