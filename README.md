@@ -33,7 +33,6 @@ CREATE TABLE german_cities (
     lon FLOAT,
     area FLOAT
 ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-);
 ```
 >6. Schlussendlich kann auf die bereitgestellte .csv-Datei verwiesen werden, um dessen Inhalt in die Datenbank einzuspeisen:
 ```code
