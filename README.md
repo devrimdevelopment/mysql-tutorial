@@ -1,7 +1,7 @@
 # MySQL-Tutorial: Deutsche Städte
 ## Voraussetzungen
 * MySQL Server 8.0 und MySQL Workbench CE müssen installiert sein
-* Die Dateien german_cities.csv und lebendgeborene_2023.csv aus diesem Repository (siehe Datenquellen).
+* Die Dateien **[german_cities.csv](https://raw.githubusercontent.com/devrimdevelopment/mysql-tutorial/main/german_cities.csv)** und **[lebendgeborene_2023.csv](https://raw.githubusercontent.com/devrimdevelopment/mysql-tutorial/main/lebendgeborene_2023.csv)** aus diesem Repository.
 
 
 ## Vorbereitung
